@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--PARA COLOCAR ICONE NA BARRA DE NAVEGAÇÃO-->
+    <link rel="shortcut icon" href="ICON_NAV/icon_branco.ico" type="image/x-icon">
+    <title>Samsung</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img src="IMG/logo_sansung.png">
+
+        <h2>SEJA BEM VINDO A SAMSUNG!</h2><br>
+        <h4>Conheça nossa nova linha GALAXY Z FLIP 4</h4> 
+
+        <div id="img_header"> 
+            <img src="IMG/imagens_zflip_header.png" width="250px">
+        </div>
+
+    </header>
+
+    <div id="container">
+
+        <div id="primeira" class="box">
+
+            <h6>SAMSUNG KNOX</h6><br>
+            <h4>Segurança multicamadas</h4><br>
+            <p>O Samsung Knox é integrado ao hardware e ao software do seu celular, com camadas de segurança sobrepostas para manter seus dados privados seguros.</p>
+
+            <img src="IMG/cel_primeira.png">
+
+        </div>
+
+        <div id="segunda" class="box">
+
+            <h6>5G</h6><br>
+            <h4>Velocidade para os impacientes</h4><br>
+            <p>Onde quer que você queira compartilhar o momento, chegue lá rapidamente! A conectividade 5G permite que você faça streaming, baixe e publique conteúdo com velocidades hiper-rápidas.</p>
+
+            <img src="IMG/cel_segunda.png">
+
+        </div> 
+
+        <div id="terceira" class="box">
+
+            <h6>TAMANHO COMPACTO</h6><br>
+            <h4>Adapta-se a todos os seus ajustes</h4><br>
+            <p>Pequeno, mas poderoso, quando dobrado, o Galaxy Z Flip4 5G é um smartphone compacto de tamanho normal e tem o tamanho certo para caber em um bolso quando chegar a hora de fazer sucesso.</p>
+
+            <img src="IMG/terceira_cel.png">
+
+        </div> 
+
+    </div>
+
+    <div id="container_2">
+
+        <div id="cores" class="box2">
+
+            <h5>CORES</h5><br> 
+            <h1>Conheça as novas cores</h1><br>
+            <p>Escolha uma cor que combine com tudo, mas que não se pareça com nada mais. Um acabamento turvo no vidro cria um contraste suave com a armação de metal brilhante e de alto brilho. Selecione entre quatro tons: Violeta, Grafite, Rose e Azul.</p>
+
+        </div>
+
+        <!--DIVS DAS BOLINHAS E IMAGENS QUE MUDA DE COR-->
+        <div id="slider" class="box2">
+
+            <!--Bolinhas dos celulares que muda-->
+            <div id="slides">
+                <input type="radio" name="radio-btn" id="radio1" class="manual-btn">
+                <input type="radio" name="radio-btn" id="radio2" class="manual-btn"> 
+                <input type="radio" name="radio-btn" id="radio3" class="manual-btn"> 
+                <input type="radio" name="radio-btn" id="radio4" class="manual-btn">
+
+                <!--Imagens dos celulares coloridos-->
+                <div class="slide first">
+                    <img src="IMG/ZFLIP_VIOLETA.png" alt="Violeta">
+                </div>
+                <div class="slide">
+                    <img src="IMG/ZFLIP_PRETO.png" alt="Grafite">
+                </div>
+                <div class="slide">
+                    <img src="IMG/ZFLIP_ROSE.png" alt="Rose">
+                </div>
+                <div class="slide">
+                    <img src="IMG/ZFLIP_AZUL.png" alt="Azul">
+                </div>
+            </div>    
+
+            <!--Bolinhas de navegação-->
+            <div id="navegation-bar">
+                <label for="radio1" class="manual-btn" id="btn-violeta"></label>
+                <label for="radio2" class="manual-btn" id="btn-grafite"></label>
+                <label for="radio3" class="manual-btn" id="btn-rose"></label>
+                <label for="radio4" class="manual-btn" id="btn-azul"></label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <img src="IMG/img_rodape.png">
+    </footer>
+
+</body>
+</html>
