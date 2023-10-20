@@ -1,15 +1,9 @@
 <P align="center">👩🏻‍💻</P>
 <h2 align="center">SITE SAMSUNG - TAUANE LIMA</h2>
 
-<p align="center"><img src="https://github.com/tauanelima05/siteSamsung/assets/101372296/ec7922c7-2421-4bc3-9c24-5d5483a8baee"></p>
-
 <h4 align="center"><a href="https://site-samsung.vercel.app/" align="center">Clique aqui para visitar o projeto<a/></h4>
 
-<h3>
-  
-  </> Tecnologias utilizadas
-  
-</h3>
+<p align="center"><img src="https://github.com/tauanelima05/siteSamsung/assets/101372296/ec7922c7-2421-4bc3-9c24-5d5483a8baee"></p>
 
 ##
 
